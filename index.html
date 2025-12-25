@@ -346,7 +346,62 @@
 
 			<!--==================== CONTACT ====================-->
 			<section class="contact section" id="contact">
-				
+				<h2 class="section__title">Contact Me</h2>
+
+				<div class="contact__container container grid">
+					<form action="" class="contact__form grid" id="contact-form">
+						<input type="text" placeholder="Names" name="user_name" required class="contact__input">
+						<input type="email" placeholder="Email" name="user_email" required class="contact__input">
+
+						<textarea placeholder="Message" 
+								  name="user__message" required 
+								  class="contact__input contact__area"></textarea>
+
+						<button type="submit" class="button">Send Message</button>
+
+						<p class="contact__message" id="contact-message">
+							Message sent successfully ✅
+						</p>
+					</form>
+
+					<div class="contact__content grid">
+						<div class="contact__data grid">
+							<address class="contact__address">
+								<i class="ri-mail-fill"></i>
+								<span>loky@email.com</span>
+							</address>
+
+							<address class="contact__address">
+								<i class="ri-smartphone-fill"></i>
+								<span>+591 69954434</span>
+							</address>
+
+							<address class="contact__address">
+								<i class="ri-map-pin-2-fill"></i>
+								<span>La Paz - Bolivia</span>
+							</address>
+
+							<address class="contact__address">
+								<i class="ri-time-fill"></i>
+								<span>Available: Mon-Fri, 9AM-6PM</span>
+							</address>
+						</div><!-- /.contact__data -->
+
+						<div class="contact__social">
+							<a href="https://api.whatsapp.com/send?phone=68989545&text=Hello, more information!" target="_blank" class="contact__link">
+								<i class="ri-whatsapp-fill"></i>
+							</a>
+
+							<a href="https://m.me/lokywebdev" target="_blank" class="contact__link">
+								<i class="ri-messenger-fill"></i>
+							</a>
+
+							<a href="https://t.me/telegram" target="_blank" class="contact__link">
+								<i class="ri-telegram-2-fill"></i>
+							</a>
+						</div><!-- /.contact__social -->
+					</div><!-- /.contact__content -->
+				</div><!-- /.contact__container -->
 			</section>
 		</main>
 
