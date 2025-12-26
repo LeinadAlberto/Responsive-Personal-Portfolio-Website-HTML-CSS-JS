@@ -49,7 +49,25 @@ const shadowHeader = () => {
 window.addEventListener('scroll', shadowHeader)
 
 /*=============== CONTACT EMAIL JS ===============*/ 
+const contactForm = document.getElementById('contact-form'),
+      contactMessage = document.getElementById('contact-message')
 
+const sendEmail = (e) => {
+    e.preventDefault()
+
+    /* 
+        The code for sending emails is a sample test.
+
+        Create your account at https://www.emailjs.com/ 
+        and follow the instructions in the video and images 
+        to send emails with your account. 
+    */
+
+    // serviceID - templateID - #form - publiKey
+    emailjs.sendForm
+}
+
+contactForm.addEventListener('submit', sendEmail)
 
 /*=============== SHOW SCROLL UP ===============*/ 
 
