@@ -64,7 +64,11 @@ const sendEmail = (e) => {
     */
 
     // serviceID - templateID - #form - publiKey
-    emailjs.sendForm
+    emailjs.sendForm('service_ga58mff', 'template_37b2y3u', '#contact-form', 'RGmJ11tWMU0Q5U7hF')
+    .then(() => {
+        // Show sent message
+        contactMessage.textContent = 'Message sent successfully ✅'
+    })
 }
 
 contactForm.addEventListener('submit', sendEmail)
