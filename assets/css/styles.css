@@ -233,7 +233,9 @@ img {
 }
 
 /* Active link */
-
+.active-link::after {
+	width: 60%;
+}
 
 /*=============== HOME ===============*/
 .home__container {
@@ -919,6 +921,10 @@ img {
 
 	.footer__social {
 		justify-self: flex-end;
+	}
+
+	.scrollup { 
+		right: 3rem;
 	}
 }
 
